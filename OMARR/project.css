@@ -794,3 +794,170 @@ select.contact-inputs {
     border-top: 3px solid #ffffff;
     border-radius: 2px;
 }
+
+/* Medium screens (tablets/laptops) */
+@media (max-width: 1768px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .header {
+        padding: 2rem 5%;
+    }
+
+    /* Show menu icon */
+    #menu-icon {
+        display: block;
+        font-size: 4rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    /* Hide navbar links by default */
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 100%;
+        background: rgba(0,0,0,0.8);
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .navbar a {
+        margin: 2rem 0;
+        font-size: 2.2rem;
+    }
+
+    .navbar.active {
+        right: 0;
+    }
+
+    /* Hide hero image for small screens */
+    .home-img img {
+        width: 70%;
+        margin-top: 3rem;
+    }
+
+    /* Make home section stack */
+    .home {
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+        padding: 5rem 2rem;
+    }
+
+    /* Skills icon smaller */
+    .skill-icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+
+    /* Ball section adjustments */
+    .ball-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ball-game {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ball-game .gradient-btnn {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin-top: 15px;
+    }
+
+    .ball-game h3 {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .ball-game p {
+        max-width: 90%;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    /* Yeat game image */
+    .yeat-game img, .ball-game img {
+        width: 300px;
+        max-width: 90%;
+    }
+
+    /* Games container wraps */
+    .games {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-link{
+        font-size: 2rem;
+    }
+    
+}
+
+/* Very small screens (phones) */
+@media (max-width: 480px) {
+
+    html {
+        font-size: 40%;
+    }
+
+    .header {
+        padding: 1.5rem 2%;
+    }
+
+    .home-content h1 {
+        font-size: 6rem;
+    }
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
+    .home-content p {
+        font-size: 1.5rem;
+    }
+
+    .skill-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    /* Ball section adjustments */
+    .ball-section {
+        gap: 30px;
+    }
+
+    .ball-game img, .yeat-game img {
+        width: 200px;
+    }
+
+    .ball-game p, .yeat-game p {
+        font-size: 1.4rem;
+    }
+
+    .ball-game .gradient-btnn, .yeat-game .gradient-btnn {
+        font-size: 1.4rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .games {
+        gap: 30px;
+    }
+    
+
+}
