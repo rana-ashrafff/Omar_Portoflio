@@ -148,7 +148,7 @@ section{
 }
 
 .home-content h1 span {
-  font-family: 'MyCustomFont', sans-serif;
+  /* font-family: 'MyCustomFont', sans-serif; */
 }
 
 
@@ -371,7 +371,7 @@ section{
 
 
 .typing-text .words span{
-  font-family: 'MyCustomFont', sans-serif;
+  /* font-family: 'MyCustomFont', sans-serif; */
   display: block;
   line-height: 1.2em;         
   margin: 0;
@@ -1167,4 +1167,5 @@ select.contact-inputs {
     }
     
 }
+
 
