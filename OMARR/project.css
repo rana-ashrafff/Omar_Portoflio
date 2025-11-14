@@ -386,7 +386,7 @@ select.contact-inputs {
 /*Projects page*/
 
 .games h1{
-    font-family: 'MyCustomFont', sans-serif; 
+    /* font-family: 'MyCustomFont', sans-serif;  */
     font-size: 5rem;
     /* color: #e0e2e3; */
     margin-top: 100px;
@@ -961,3 +961,4 @@ select.contact-inputs {
     
 
 }
+
